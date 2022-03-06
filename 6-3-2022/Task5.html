@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 200px;
+  height: 200px;
+  background-color: orange ;
+  position: relative;
+  animation-name: test;
+  animation-duration: 5s;
+  margin: 60px ;
+  padding: 50px;
+  animation-iteration-count: infinite;
+  border-radius: 5px;
+}
+
+@keyframes test {
+  0%   {background-image:linear-gradient(pink,rgb(129, 65, 65)); left:0px; top:0px;}
+  25%  {background-image:linear-gradient(rgb(207, 207, 241),rgb(100, 100, 247)) ; left:200px; top:0px;}
+  50%  {background-image:linear-gradient(rgb(30, 30, 48)blue  ); left:200px; top:200px;}
+  75%  {background-image:linear-gradient(rgb(245, 130, 130),rgb(247, 71, 71)); left:0px; top:200px;}
+  100% {background-image:linear-gradient(rgb(247, 207, 133),rgb(182, 119, 3)) ; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+
+
+<div></div>
+</body>
