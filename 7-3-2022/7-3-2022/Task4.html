@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cont{
+            display: grid;
+            width: 1000px ;
+            height: 500px;
+            grid-template-rows: 120px 300px 180px;
+            row-gap: 10px;
+            column-gap: 10px;
+            
+        }
+        .black{
+            background-color: black;
+            grid-row-start: 1 ;
+             grid-row-end: 2 ;
+             grid-column-start: 1 ;
+             grid-column-end: 4;
+
+
+            
+        }
+        .orange{ background-color: orange;
+            grid-row-start:2 ;
+            grid-row-end:3 ;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .green{ background-color: green;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+        }
+        .blue{
+            background-color: blue;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+    <div class="black"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="orange"></div>
+    <div>
+</body>
+
+</html>
